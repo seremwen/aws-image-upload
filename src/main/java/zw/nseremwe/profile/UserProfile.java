@@ -1,12 +1,14 @@
 package zw.nseremwe.profile;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.Objects;
 import java.util.UUID;
 @Getter
 @Setter
+@RequiredArgsConstructor
+@NoArgsConstructor
+@AllArgsConstructor
 public class UserProfile {
     private UUID userProfileId;
     private  String username;
